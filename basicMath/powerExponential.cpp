@@ -23,13 +23,10 @@ double getExponential(double x, int y) {
 int main() {
     double x;
     int y;
-    cout << "Enter value of x : ";
-    cin >> x;
 
-    cout << "Enter exponential number y : ";
+    cin >> x;
     cin >> y;
 
     double ans = getExponential(x, y);
-
-    cout << "exponential of " << x << " to the power " << y << " is " << ans;
+    cout << ans;
 }
