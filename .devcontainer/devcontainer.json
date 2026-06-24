@@ -1,0 +1,23 @@
+{
+  "name": "DSA (C++ & Go)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "golang.go"
+      ],
+      "settings": {
+        "C_Cpp_Runner.cCompilerPath": "gcc",
+        "C_Cpp_Runner.cppCompilerPath": "g++",
+        "C_Cpp_Runner.debuggerPath": "gdb",
+        "go.gopath": "/go",
+        "go.toolsManagement.autoUpdate": true
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@
       "cStandard": "c11",
       "cppStandard": "gnu++14",
       "intelliSenseMode": "windows-gcc-x86",
-      "compilerPath": "C:/MinGW/bin/gcc.exe"
+      "compilerPath": "C:/Users/venom/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe"
     }
   ],
   "version": 4
